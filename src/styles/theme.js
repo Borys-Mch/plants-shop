@@ -35,6 +35,12 @@ export const theme = extendTheme({
           lineHeight: "1.5",
           paddingTop: "16px",
         },
+        header: {
+          color: "#FFF",
+          fontSize: "24px",
+          fontWeight: "400",
+          lineHeight: "1.75",
+        },
       },
     },
   },
