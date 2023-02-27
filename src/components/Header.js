@@ -4,7 +4,7 @@ import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import React from "react";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <Center bgGradient="linear(to-r, #566270, #283444)">
       <Container maxW="container.2xl" py={14}>
