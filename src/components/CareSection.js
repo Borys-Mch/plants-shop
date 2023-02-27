@@ -16,14 +16,22 @@ const CareSection = () => {
           spacing={10}>
           <Box>
             <Heading fontSize={64} fontWeight={500}>
-              How to care for plants
+              How to care <br />
+              for plants
             </Heading>
-            <Text fontSize={20}>Take care of plants with all your heart</Text>
+            <Text fontSize={20} pt={7}>
+              Take care of plants with all your heart
+            </Text>
             <Box mt={20} maxW="585px">
               {careItem.map((item) => (
                 <Stack key={item.id} direction="row" mt={8}>
-                  <Image src={item.img} alt={item.title} width={68} />
-                  <Box>
+                  <Image
+                    src={item.img}
+                    alt={item.title}
+                    width={68}
+                    height={68}
+                  />
+                  <Box pl={6}>
                     <Text fontSize={32} fontWeight={500}>
                       {item.title}
                     </Text>
