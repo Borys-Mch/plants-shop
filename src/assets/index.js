@@ -1,8 +1,8 @@
 import careImg from "./care.png";
-import akarIconsWater from "./akar-icons_water.svg";
-import charmPlantPot from "./charm_plant-pot.svg";
-import iconParkOutlineSun from "./icon-park-outline_sun.svg";
-import tablerTemperature from "./tabler_temperature.svg";
+import akarIconsWater from "./water.svg";
+import charmPlantPot from "./plant.svg";
+import iconParkOutlineSun from "./sun.svg";
+import tablerTemperature from "./temperature.svg";
 
 export {
   careImg,
