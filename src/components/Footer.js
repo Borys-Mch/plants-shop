@@ -46,6 +46,7 @@ const Footer = () => {
                       w="145px"
                       borderRadius={50}
                       bgGradient="linear(to-r, #2AF598, #009EFD)"
+                      _hover={{ background: "#2acdf5" }}
                       color="white"
                       fontWeight="normal"
                       size="xl">

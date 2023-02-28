@@ -6,7 +6,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <Center bgGradient="linear(to-r, #566270, #283444)">
+    <Center zIndex={10} pos="relative">
       <Container maxW="container.2xl" py={14}>
         <Stack direction="row">
           <Spacer />

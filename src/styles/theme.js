@@ -14,6 +14,9 @@ export const theme = extendTheme({
       "2xl": "1488px",
     },
   },
+  breakpoints: {
+    "3xl": "120em",
+  },
   components: {
     Heading: {
       variants: {

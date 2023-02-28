@@ -1,11 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import { Box, Center, Container, Heading, Stack, Text } from "@chakra-ui/react";
-import { careImg } from "@/assets";
 import { careItem } from "@/constants";
 
 const CareSection = () => {
-  console.log(careItem.img);
   return (
     <Center>
       <Container maxW="container.2xl" my={44}>
@@ -41,8 +39,15 @@ const CareSection = () => {
               ))}
             </Box>
           </Box>
-          <Box>
-            <Image src={careImg} alt="Care" />
+          <Box
+            position="relative"
+            w={{ base: 350, sm: 450, lg: 657 }}
+            h={{ base: 329, sm: 423, lg: 618 }}>
+            <Image
+              src="https://res.cloudinary.com/dfsqwbmsa/image/upload/v1677514857/plants/care_lhddob.png"
+              fill
+              alt="Care"
+            />
           </Box>
         </Stack>
       </Container>
