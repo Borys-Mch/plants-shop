@@ -24,3 +24,24 @@ export const careItem = [
     img: "https://res.cloudinary.com/dfsqwbmsa/image/upload/v1677495995/plants/temperature_azcgnb.svg",
   },
 ];
+
+export const serviceItems = [
+  {
+    id: 1,
+    title: "Free Shapping",
+    desc: "No charge for each delivery",
+    img: "https://res.cloudinary.com/dfsqwbmsa/image/upload/v1677651940/plants/box_dkcpib.svg",
+  },
+  {
+    id: 2,
+    title: "Quick Payment",
+    desc: "100% secure payment",
+    img: "https://res.cloudinary.com/dfsqwbmsa/image/upload/v1677651940/plants/wallet_w6eotm.svg",
+  },
+  {
+    id: 3,
+    title: "24/7 Support",
+    desc: "Quick support",
+    img: "https://res.cloudinary.com/dfsqwbmsa/image/upload/v1677651940/plants/akar_azakhn.svg",
+  },
+];

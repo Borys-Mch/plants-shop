@@ -21,13 +21,13 @@ const BannerSectiom = () => {
     <Box
       mt={-200}
       w="full"
-      h={{ base: "1189px", "3xl": "1600px" }}
+      h={{ base: "1189px", "3xl": "1455px" }}
       pos="relative"
       bgImage="url('https://res.cloudinary.com/dfsqwbmsa/image/upload/v1677564515/plants/wall-background_g87wzh.jpg')"
       bgSize="cover">
       <Stack h="full" pt={48} alignItems="center">
         <Heading
-          fontSize={{ base: 35, md: 50, lg: 82 }}
+          fontSize={{ base: 30, md: 50, lg: 82 }}
           fontWeight={700}
           color="white"
           textAlign="center">
@@ -36,7 +36,7 @@ const BannerSectiom = () => {
         </Heading>
         <Text
           mt={6}
-          fontSize={{ base: 20, md: 24 }}
+          fontSize={{ base: 18, md: 24 }}
           color="white"
           textAlign="center">
           find your dream plant for you home decoration <br />
@@ -83,8 +83,8 @@ const BannerSectiom = () => {
             w={54}
             h={54}
             position="absolute"
-            top={{ base: 660, "3xl": 890 }}
-            left={{ base: 188, "3xl": 260 }}
+            top={{ base: 660, "3xl": 810 }}
+            left={{ base: 188, "3xl": 240 }}
             border="1px solid #FFF"
             borderRadius="full"
             bg="#FFFFFF29">
